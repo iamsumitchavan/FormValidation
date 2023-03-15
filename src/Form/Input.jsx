@@ -25,7 +25,11 @@ function Input({
       const { onBlur,onChange,value} = data;
       const {error,touched} = meta;
 
-     
+       
+      if(touched && error) {
+
+        className = "border-2 border-red-600  rounded-lg w-60 lg:w-80 p-2"
+      }
 
 
 
@@ -43,7 +47,7 @@ function Input({
        value = {value}
       
       {...rest}
-       className= {className} />
+       className= {className + " " + className} />
        {touched && error && <div className="text-red-700"> {error}</div>}
        
    </div>
