@@ -89,8 +89,8 @@ function LogInPage() {
                 <div className=" py-10 flex flex-col justify-center w-full gap-2 items-center px-10 md:gap-1 md:py-2
                 lg:justify-end lg:items-end ">
 
-                    <button  type="submit" className="p-2 w-60 bg-indigo-600 text-white rounded-lg lg:w-40">log in</button>
-                    <button className="p-2 w-60 bg-indigo-600 text-white rounded-lg lg:w-40">Reset</button>
+                    <button  type="submit" className="hover:active:bg-indigo-400 p-2 w-60 bg-indigo-600 text-white rounded-lg lg:w-40">log in</button>
+                    <button className="hover:active:bg-indigo-400 p-2 w-60 bg-indigo-600 text-white rounded-lg lg:w-40">Reset</button>
                      
                     <Link className="text-indigo-600 font-normal text-lg text-end">create an account ?</Link>
                 
