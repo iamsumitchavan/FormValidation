@@ -92,7 +92,7 @@ function LogInPage() {
                     <button  type="submit" className="hover:active:bg-indigo-400 p-2 w-60 bg-indigo-600 text-white rounded-lg lg:w-40">log in</button>
                     <button className="hover:active:bg-indigo-400 p-2 w-60 bg-indigo-600 text-white rounded-lg lg:w-40">Reset</button>
                      
-                    <Link className="text-indigo-600 font-normal text-lg text-end">create an account ?</Link>
+                    <Link to = "/signup/" className="text-indigo-600 font-normal text-lg text-end">create an account ?</Link>
                 
                 </div>
              
